@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Щербина, КПІ, HTML5, веб-розробка, персональна сторінка">
+    <meta name="description" content="Персональна веб-сторінка студента Щербини Г. М. для лабораторної роботи №4">
+    <title>Щербина Г. М., група ІП-21</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Щербина Гліб Михайлович</h2>
+    <p>Дата народження: 04 червня 2007 року. Місце народження: м. Київ.</p>
+    <p>Освіта: Середня загальна освіта; Національний технічний університет України «Київський політехнічний інститут імені Ігоря Сікорського» (НТУУ КПІ).</p>
+    <p>Хобі:</p>
+    <ul>
+        <li>Спорт</li>
+        <li>Музика</li>
+        <li>Комп'ютерні ігри</li>
+    </ul>
+    <p>Улюблені фільми:</p>
+    <ol id="target-element">
+        <li>Інтерстеллар</li>
+        <li>Відступники</li>
+        <li>Початок</li>
+    </ol>
+    <p class="next-element">
+        Київ — столиця та найбільше місто України, одне з найдавніших міст Європи з видозбереженою багатою історією, мальовничими пагорбами над Дніпром та видатною архітектурою. Це місто, де сучасне ритмічне життя гармонійно поєднується із зеленими парками, старовинними вуличками та величними храмами.
+    </p>
+
+    <div id="image-block">
+        <a href="https://kyivcity.gov.ua/" target="_blank" rel="noopener noreferrer">
+            <img id="kiev-image" src="https://infoportal.kiev.ua/wp-content/uploads/2013/02/%D0%9F%D0%B0%D0%BD%D0%BE%D1%80%D0%B0%D0%BC%D0%B0-%D0%9A%D0%B8%D0%B5%D0%B2%D0%BE-%D0%9F%D0%B5%D1%87%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B9-%D0%BB%D0%B0%D0%B2%D1%80%D1%8B.jpg" 
+                 alt="Панорама міста Київ" 
+                 width="600">
+        </a>
+    </div>
+
+    <div class="control-buttons">
+        <button onclick="addImage()">Додати</button>
+        <button onclick="zoomIn()">Збільшити</button>
+        <button onclick="zoomOut()">Зменшити</button>
+        <button onclick="deleteImage()">Видалити</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

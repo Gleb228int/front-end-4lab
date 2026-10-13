@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul, ol {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+    transition: width 0.3s ease;
+}
+
+.control-buttons {
+    margin-top: 15px;
+}
+
+.control-buttons button {
+    padding: 8px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
